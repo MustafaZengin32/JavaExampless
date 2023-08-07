@@ -29,5 +29,13 @@ public class IncrementDecrement01 {
         System.out.println(sayi3);//8
         --a;
         System.out.println(a);//8
+
+        int x = 5;
+        int y = ++x + x++;
+
+        System.out.println(x);//7
+        System.out.println(y);//12
+
+
     }
 }
